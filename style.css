@@ -1,0 +1,75 @@
+body {
+    background-color:hsl(230, 17%, 14%);
+    color: hsl(0, 0%, 100%);
+}
+input[type=range] {
+    appearance: none;
+    border-radius: 25px;
+    padding: 5px;
+}
+input[type='range']::-webkit-slider-thumb {
+    appearance: none;
+    height:20px;
+    width:20px;
+    background: #000;
+    border-radius:50%;
+}
+.main-dashboard {
+    display: grid;
+    grid-gap: 35px;
+    place-items: center;
+}
+.dashboard-details {
+    display: grid;
+    grid-template-columns: 600px 250px;
+    width: 900px;
+}
+.overview-1{
+    display: grid;
+    grid-template-columns: repeat(4,225px);
+}
+.overview-2{
+    display: grid;
+    grid-gap: 25px;
+}
+.row-1,
+.row-2{
+    display: grid;
+    grid-template-columns: repeat(4,225px);
+}
+.col-1,
+.col-2,
+.col-3,
+.col-4 {
+    width: 200px;
+    height: 180px;
+    background-color:hsl(228, 45%, 44%);
+    border-radius:5%;
+}
+.toggle{
+    justify-self: end;
+    align-self: end;
+}
+.main-heading{
+    margin-block-end: 0;
+}
+.total-followers{
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+.slider{
+    width: 50px;
+    height: 20px;
+    background-color: hsl(225, 100%, 98%)
+}
+.overview-heading{
+    margin-block-start: 0.5em;
+    margin-block-end: 0;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
