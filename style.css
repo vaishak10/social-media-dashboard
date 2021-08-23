@@ -17,7 +17,7 @@ input[type='range']::-webkit-slider-thumb {
     appearance: none;
     height: 20px;
     width: 20px;
-    background-color: #000;
+    background-color: #261C2C;
     border-radius: 50%;
 }
 
@@ -93,6 +93,16 @@ img {
     padding: 8px;
     margin-block-start: 0.8em;
     margin-block-end: 0.8em;
+}
+
+.overview-1>.col-1:hover,
+.overview-1>.col-2:hover,
+.overview-1>.col-3:hover,
+.overview-1>.col-4:hover {
+    position: relative;
+    top: 4px;
+    height: 192px;
+    border-radius: 0 0 5% 5%;
 }
 
 .col-1:hover,
@@ -218,17 +228,39 @@ img {
     font-size: 12px;
 }
 
+.line-1,
+.line-2,
+.line-3,
+.line-4 {
+    width: 264px;
+    height: 8px;
+    position: relative;
+    bottom: 12px;
+    border-radius: 25px 25px 0 0;
+}
+
+.line-1 {
+    background-color: #7C83FD;
+}
+
+.line-2 {
+    background-color: #96BAFF;
+}
+
+.line-3 {
+    background-image: linear-gradient(to right, hsl(146, 70%, 51%), rgb(233, 120, 45));
+}
+
+.line-4 {
+    background-color: #FF3F00;
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
+    color: red;
 }
 
 .attribution a {
     color: hsl(228, 45%, 44%);
-}
-
-color: hsl(228, 45%, 44%);
-}
-
-color: hsl(228, 45%, 44%);
 }

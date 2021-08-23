@@ -9,11 +9,12 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
     <title>Frontend Mentor | [Challenge Name Here]</title>
-
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -26,12 +27,13 @@
             </div>
             <div class="toggle">
                 <label>Dark Mode</label>
-                <input type="range" min="0" max="1" value="0" class="slider">
+                <input type="range" min="0" max="1" value="0" class="slider" onclick="setBG(value)">
             </div>
         </div>
 
         <div class="overview-1">
             <div class="col-1">
+                <div class="line-1"></div>
                 <p class="username"><img src="images/icon-facebook.svg">&nbsp;&nbsp; @nathanf</p>
                 <p class="followers-count">1987</p>
                 <p class="followers-label">FOLLOWERS</p>
@@ -43,6 +45,7 @@
                 </p>
             </div>
             <div class="col-2">
+                <div class="line-2"></div>
                 <p class="username"><img src="images/icon-twitter.svg">&nbsp;&nbsp; @nathanf</p>
                 <p class="followers-count">1044</p>
                 <p class="followers-label">FOLLOWERS</p>
@@ -54,6 +57,7 @@
                 </p>
             </div>
             <div class="col-3">
+                <div class="line-3"></div>
                 <p class="username"><img src="images/icon-instagram.svg">&nbsp;&nbsp; @nathanf</p>
                 <p class="followers-count">11k</p>
                 <p class="followers-label">FOLLOWERS</p>
@@ -65,6 +69,7 @@
                 </p>
             </div>
             <div class="col-4">
+                <div class="line-4"></div>
                 <p class="username"><img src="images/icon-youtube.svg">&nbsp;&nbsp; Nathan F.</p>
                 <p class="followers-count">8239</p>
                 <p class="followers-label">SUBSCRIBERS</p>
