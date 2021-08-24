@@ -18,8 +18,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution](#https://your-solution-url.com)
-- Live Site URL: [Social-media-live](#https://your-live-site-url.com)
+- Solution URL: [Social-media-live](#https://your-live-site-url.com) 
+- Live Site URL: [vaishakks.github.io/social-media-dashboard](https://vaishakks.github.io/social-media-dashboard/)
 
 ## My process
 
