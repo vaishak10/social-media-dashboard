@@ -48,7 +48,7 @@ Have added a feature of color change for each of the cards based on increase or 
 
 ### Useful resources
 
-- [CSSROM](https://developer.mozilla.org/en-US/docs/Web/API/CSS_Object_Model) - This was helpful with respect to changing elements based on pseudo classes. 
+- [CSSOM](https://developer.mozilla.org/en-US/docs/Web/API/CSS_Object_Model) - This was helpful with respect to changing elements based on pseudo classes. 
 
 ## Author
 
