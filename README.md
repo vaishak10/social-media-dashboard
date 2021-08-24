@@ -18,7 +18,6 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Social-media-live](#https://your-live-site-url.com) 
 - Live Site URL: [vaishakks.github.io/social-media-dashboard](https://vaishakks.github.io/social-media-dashboard/)
 
 ## My process
