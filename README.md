@@ -36,8 +36,10 @@ Users should be able to:
 
 My work in office requires developing lot's of dashboards. So it was always in my mind to develop a fully fledeged dashboard screen with better styling. This challenge was a better boost to my knowledge on developing dashboards in a more elegant way.
 
-One new thing I did come across while building this UI was the use of **CSSOM(CSS object model)**.<br>
-The CSS Object Model is a set of APIs allowing the manipulation of CSS from JavaScript. It is much like the DOM, but for the CSS rather than the HTML. It allows users to read and modify CSS style dynamically.<br>
+One new thing I did come across while building this UI was the use of **CSSOM(CSS object model)**.
+
+**CSSOM**: The CSS Object Model is a set of APIs allowing the manipulation of CSS from JavaScript. It is much like the DOM, but for the CSS rather than the HTML. It allows users to read and modify CSS style dynamically.
+
 Do visit [CSSROM](https://developer.mozilla.org/en-US/docs/Web/API/CSS_Object_Model) which is a mdn documentation for a clear understanding of CSS object model.
 
 ### Continued development
