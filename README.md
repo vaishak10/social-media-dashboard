@@ -40,7 +40,7 @@ One new thing I did come across while building this UI was the use of **CSSOM(CS
 
 **CSSOM**: The CSS Object Model is a set of APIs allowing the manipulation of CSS from JavaScript. It is much like the DOM, but for the CSS rather than the HTML. It allows users to read and modify CSS style dynamically.
 
-Do visit [CSSROM](https://developer.mozilla.org/en-US/docs/Web/API/CSS_Object_Model) which is a mdn documentation for a clear understanding of CSS object model.
+Do visit [CSSOM](https://developer.mozilla.org/en-US/docs/Web/API/CSS_Object_Model) which is a mdn documentation for a clear understanding of CSS object model.
 
 ### Continued development
 
